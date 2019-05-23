@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		ECB0129B2294A97C00BD3C0C /* BrowseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECB0129A2294A97C00BD3C0C /* BrowseViewController.swift */; };
+		ECB0129E2294AC4E00BD3C0C /* MovieCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECB0129C2294AC4E00BD3C0C /* MovieCell.swift */; };
+		ECB012AB2295C96F00BD3C0C /* MovieCardCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECB012A92295C96F00BD3C0C /* MovieCardCollectionViewCell.swift */; };
+		ECB012AC2295C96F00BD3C0C /* MovieCardCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = ECB012AA2295C96F00BD3C0C /* MovieCardCollectionViewCell.xib */; };
 		ECC81C6E2271ECA50094A631 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECC81C6D2271ECA50094A631 /* AppDelegate.swift */; };
 		ECC81C702271ECA50094A631 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECC81C6F2271ECA50094A631 /* ViewController.swift */; };
 		ECC81C732271ECA50094A631 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ECC81C712271ECA50094A631 /* Main.storyboard */; };
@@ -26,6 +30,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		ECB0129A2294A97C00BD3C0C /* BrowseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrowseViewController.swift; sourceTree = "<group>"; };
+		ECB0129C2294AC4E00BD3C0C /* MovieCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieCell.swift; sourceTree = "<group>"; };
+		ECB012A92295C96F00BD3C0C /* MovieCardCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieCardCollectionViewCell.swift; sourceTree = "<group>"; };
+		ECB012AA2295C96F00BD3C0C /* MovieCardCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MovieCardCollectionViewCell.xib; sourceTree = "<group>"; };
 		ECC81C6A2271ECA50094A631 /* Popcorn.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Popcorn.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ECC81C6D2271ECA50094A631 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		ECC81C6F2271ECA50094A631 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -56,6 +64,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		EC338D1F229713EF00502984 /* Search */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Search;
+			sourceTree = "<group>";
+		};
+		ECB012A02295BBB700BD3C0C /* Browse */ = {
+			isa = PBXGroup;
+			children = (
+				ECB0129A2294A97C00BD3C0C /* BrowseViewController.swift */,
+				ECB0129C2294AC4E00BD3C0C /* MovieCell.swift */,
+				ECB012A92295C96F00BD3C0C /* MovieCardCollectionViewCell.swift */,
+				ECB012AA2295C96F00BD3C0C /* MovieCardCollectionViewCell.xib */,
+			);
+			path = Browse;
+			sourceTree = "<group>";
+		};
 		ECC81C612271ECA50094A631 = {
 			isa = PBXGroup;
 			children = (
@@ -77,6 +103,8 @@
 		ECC81C6C2271ECA50094A631 /* Popcorn */ = {
 			isa = PBXGroup;
 			children = (
+				EC338D1F229713EF00502984 /* Search */,
+				ECB012A02295BBB700BD3C0C /* Browse */,
 				ECC81C6D2271ECA50094A631 /* AppDelegate.swift */,
 				ECC81C6F2271ECA50094A631 /* ViewController.swift */,
 				ECC81C712271ECA50094A631 /* Main.storyboard */,
@@ -178,6 +206,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				ECC81C782271ECA60094A631 /* LaunchScreen.storyboard in Resources */,
+				ECB012AC2295C96F00BD3C0C /* MovieCardCollectionViewCell.xib in Resources */,
 				ECC81C752271ECA60094A631 /* Assets.xcassets in Resources */,
 				ECC81C732271ECA50094A631 /* Main.storyboard in Resources */,
 			);
@@ -197,7 +226,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ECB0129B2294A97C00BD3C0C /* BrowseViewController.swift in Sources */,
 				ECC81C702271ECA50094A631 /* ViewController.swift in Sources */,
+				ECB0129E2294AC4E00BD3C0C /* MovieCell.swift in Sources */,
+				ECB012AB2295C96F00BD3C0C /* MovieCardCollectionViewCell.swift in Sources */,
 				ECC81C6E2271ECA50094A631 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
